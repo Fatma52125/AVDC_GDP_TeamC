@@ -1,0 +1,62 @@
+Control Parameters
+%P1 Parameters
+control.p1.Zmax=800;
+control.p1.Zmin=30;
+control.p1.LMmax=300;
+control.p1.Nmax=300;
+control.p1.RC_to_rp=0.07;
+control.p1.RC_to_rp_rates=0.6;
+control.p1.RC_to_yaw=0.36;
+control.p1.RC_to_yaw_rates=0.2;
+% control.p1.RC_to_alt=3/1000;
+control.p1.RC_to_alt=1/300;
+control.p1.RC_to_xy=0.01;
+
+%P2 Parameters
+control.p2.neutral_throttle=500;
+control.p2.neutral_deadzone=200;
+control.p2.motors_max = 1000;
+control.p2.motors_min = 100;
+control.p2.land_velocity = 1;
+control.p2.ground_threshold = 0.2;
+control.p2.neutral = 200;
+control.p2.thrust_to_weight = 0.8;
+control.p2.alpha_min_gz = 0.7;
+% control.p2.pars=randn(1,1);
+control.p2.rm_lim = 20;
+
+%P3 Parameters
+control.p3.control_yaw=1;
+control.p3.pars=randn(39,1);
+
+%P4 Parameters
+control.p4.T_min = 100;
+control.p4.T_max = 1000;
+control.p4.alpha_m = 1;
+
+Model Parameters
+model.mass=1.7;
+model.Ixx=0.0107;
+model.Iyy=0.011;
+model.Izz=0.029;
+model.kt=2.5*9.80665/1000;
+model.kq=0.1*9.80665/1000;
+model.lx=0.225;
+model.ly=0.225;
+model.Cd=0.05;
+model.radius=1;
+
+Navigation Parameters
+nav_ekf.Qatt=[0.1*ones(4,1);10^-5*ones(3,1)];
+nav_ekf.Racc=[5*ones(3,1)];
+nav_ekf.Rrpy=[1*ones(3,1)];
+nav_ekf.Rmag=[5*ones(3,1)];
+nav_ekf.Ratt=[nav_ekf.Racc;nav_ekf.Rrpy;nav_ekf.Rmag];
+nav_ekf.Tpqr=[0.01*ones(3,1)];
+nav_ekf.Qxyz=[0.01*ones(6,1);10^-5*ones(3,1)];
+nav_ekf.Tacc=[0.1*ones(3,1)];
+nav_ekf.Rxyz_meas=[1*ones(3,1)];
+nav_ekf.Rxyz_vel_meas=[0.1*ones(3,1)];
+nav_ekf.Rz_meas=[0.1];
+nav_ekf.Rxyz=[nav_ekf.Rxyz_meas;nav_ekf.Rxyz_vel_meas;nav_ekf.Rz_meas];
+nav_ekf.Qz = [10^-5*ones(2,1)];

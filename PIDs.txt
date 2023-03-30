@@ -1,0 +1,121 @@
+%Roll Rate Pid
+roll_rate_pid.Kp= 0.95;
+roll_rate_pid.Kd=0.07;
+roll_rate_pid.Ki=0.015;
+roll_rate_pid.Imax=300;
+roll_rate_pid.alpha_d=0;
+roll_rate_pid.alpha_r=0;
+roll_rate_pid.alpha_e=0;
+roll_rate_pid.alpha_i=0;
+roll_rate_pid.max_ek=1000;
+roll_rate_pid.max_ek_dot=1000;
+
+%Pitch Rate Pid
+pitch_rate_pid.Kp=1.5;
+pitch_rate_pid.Kd=0.09;
+pitch_rate_pid.Ki=0.01;
+pitch_rate_pid.Imax=300;
+pitch_rate_pid.alpha_d=0;
+pitch_rate_pid.alpha_r=0;
+pitch_rate_pid.alpha_e=0;
+pitch_rate_pid.alpha_i=0;
+pitch_rate_pid.max_ek=1000;
+pitch_rate_pid.max_ek_dot=1000;
+
+%Yaw Rate Pid
+yaw_rate_pid.Kp=1.43;
+yaw_rate_pid.Kd=0.09;
+yaw_rate_pid.Ki=0.06;
+yaw_rate_pid.Imax=100;
+yaw_rate_pid.alpha_d=0;
+yaw_rate_pid.alpha_r=0;
+yaw_rate_pid.alpha_e=0;
+yaw_rate_pid.alpha_i=0;
+yaw_rate_pid.max_ek=1000;
+yaw_rate_pid.max_ek_dot=1000;
+
+%Roll Pid
+roll_pid.Kp=5.45;
+roll_pid.Kd=0;
+roll_pid.Ki=0.01;
+roll_pid.Imax=0;
+roll_pid.alpha_d=0;
+roll_pid.alpha_r=0;
+roll_pid.alpha_e=0;
+roll_pid.alpha_i=0;
+roll_pid.max_ek=1000;
+roll_pid.max_ek_dot=1000;
+
+%Pitch Pid
+pitch_pid.Kp=5.45;
+pitch_pid.Kd=0;
+pitch_pid.Ki=0.01;
+pitch_pid.Imax=0;
+pitch_pid.alpha_d=0;
+pitch_pid.alpha_r=0;
+pitch_pid.alpha_e=0;
+pitch_pid.alpha_i=0;
+pitch_pid.max_ek=1000;
+pitch_pid.max_ek_dot=1000;
+
+%Yaw Pid
+yaw_pid.Kp=3;
+yaw_pid.Kd=0;
+yaw_pid.Ki=0.01;
+yaw_pid.Imax=0;
+yaw_pid.alpha_d=0;
+yaw_pid.alpha_r=0;
+yaw_pid.alpha_e=0;
+yaw_pid.alpha_i=0;
+yaw_pid.max_ek=100;
+yaw_pid.max_ek_dot=1000;
+
+
+
+%X Pid
+x_pid.Kp=1.1;
+x_pid.Kd=1.8;
+x_pid.Ki=0.001;
+x_pid.Imax=100;
+x_pid.alpha_d=0;
+x_pid.alpha_r=0;
+x_pid.alpha_e=0;
+x_pid.alpha_i=0;
+x_pid.max_ek=10;
+x_pid.max_ek_dot=10;
+
+%Y Pid
+y_pid.Kp=1.1; 
+y_pid.Kd=1.8; 
+y_pid.Ki=0.001;
+y_pid.Imax=100;
+y_pid.alpha_d=0;
+y_pid.alpha_r=0;
+y_pid.alpha_e=0;
+y_pid.alpha_i=0;
+y_pid.max_ek=10;
+y_pid.max_ek_dot=10;
+
+%Acc Z Pid
+z_acc_pid.Kp=0.7;
+z_acc_pid.Kd=0.001;
+z_acc_pid.Ki=0.09;
+z_acc_pid.Imax=200;
+z_acc_pid.alpha_d=0;
+z_acc_pid.alpha_r=0;
+z_acc_pid.alpha_e=0;
+z_acc_pid.alpha_i=0;
+z_acc_pid.max_ek=20;
+z_acc_pid.max_ek_dot=0;
+
+%Z Pid
+z_pid.Kp=3.0778;
+z_pid.Kd=2.7651;
+z_pid.Ki=0.001;
+z_pid.Imax=100;
+z_pid.alpha_d=0;
+z_pid.alpha_r=0;
+z_pid.alpha_e=0;
+z_pid.alpha_i=0;
+z_pid.max_ek=20;
+z_pid.max_ek_dot=20;
