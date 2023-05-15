@@ -1,6 +1,8 @@
 # AVDC_GDP_TeamC
 This repository was created in order to manage the code for our GDP in MCs AVDC 2022-2023.
 
+**MSc Autonomous Vehicle Dynamics and Control (AVDC) 2022 - 2023, Cranfield Univeristy**
+
 # Contributers
 1. Mucahit TASDEMIR
 2. Abhay THAJ
@@ -50,7 +52,7 @@ The GDP given is a hardware-based project. The objectives of the GDP can be list
 It should be noted that the whole scenario should be performed autonomously. The ground control station should be developed by the team.
 Into the CDR, the flight area is changed from outdoor flight area to indoor flying arena thus the updated mission schematic is as follows:
 
-|![image](https://github.com/Fatma52125/AVDC_GDP_TeamC/assets/133139057/43d762fb-cd2f-4f20-ac74-d7d7b198d788)|
+|![image](https://github.com/Fatma52125/AVDC_GDP_TeamC/assets/133139057/26ec1fa9-beab-4d8c-b5d6-33d9859692ce)|
 |:--:|
 |*The indoor flying arena*|
 
