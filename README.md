@@ -38,7 +38,7 @@ https://cranfield-my.sharepoint.com/:v:/r/personal/mar_villalongatorres_580_cran
 
 ![image](https://github.com/Fatma52125/AVDC_GDP_TeamC/assets/133139057/01c30e49-bef8-4060-815d-957917749c09)
 
-# Flight Cnotroller Program Overview (C++)
+# Program Overview (C++)
 ![image](https://github.com/Fatma52125/AVDC_GDP_TeamC/assets/133139057/d6be9479-409b-40ca-87b2-5492fda1666c)
 
 
