@@ -29,6 +29,9 @@ thoroughly tested and verified. The results demonstrate the effectiveness of the
 autonomous quadcopter system in real-world search and identification missions.
 
 # Showcase
+
+https://github.com/Fatma52125/AVDC_GDP_TeamC/assets/133139057/5ac2afce-3288-4b91-8682-1a2dc808c858
+
 https://cranfield-my.sharepoint.com/:v:/r/personal/mar_villalongatorres_580_cranfield_ac_uk/Documents/Sequence%20%231(4).mp4?csf=1&web=1&e=luTpeJ
 
 # Introduction
