@@ -13,6 +13,19 @@ This repository was created in order to manage the code for our Group Design Pro
 7. Mar VILLALONGA TORRES
 8. Mehmet ERKESIM
 
+# Showcase
+
+https://github.com/Fatma52125/AVDC_GDP_TeamC/assets/133139057/5ac2afce-3288-4b91-8682-1a2dc808c858
+
+https://cranfield-my.sharepoint.com/:v:/r/personal/mar_villalongatorres_580_cranfield_ac_uk/Documents/Sequence%20%231(4).mp4?csf=1&web=1&e=luTpeJ
+
+![image](https://github.com/Fatma52125/AVDC_GDP_TeamC/assets/133139057/d07089fa-78d6-4920-94d7-b80ba7080f0a)
+
+![image](https://github.com/Fatma52125/AVDC_GDP_TeamC/assets/133139057/01c30e49-bef8-4060-815d-957917749c09)
+
+# Program Overview (C++)
+![image](https://github.com/Fatma52125/AVDC_GDP_TeamC/assets/133139057/d6be9479-409b-40ca-87b2-5492fda1666c)
+
 # Abstract
 This group project report presents the design, development, and testing of a multi-agent search 
 mission using autonomous quadcopters. The quadcopters were equipped with onboard Jetson 
@@ -27,20 +40,6 @@ localizing the drone's position and attitude, validating the drone's ability to 
 desired targets. The situational awareness algorithm for identification and tracking was 
 thoroughly tested and verified. The results demonstrate the effectiveness of the multi-agent 
 autonomous quadcopter system in real-world search and identification missions.
-
-# Showcase
-
-https://github.com/Fatma52125/AVDC_GDP_TeamC/assets/133139057/5ac2afce-3288-4b91-8682-1a2dc808c858
-
-https://cranfield-my.sharepoint.com/:v:/r/personal/mar_villalongatorres_580_cranfield_ac_uk/Documents/Sequence%20%231(4).mp4?csf=1&web=1&e=luTpeJ
-
-![image](https://github.com/Fatma52125/AVDC_GDP_TeamC/assets/133139057/d07089fa-78d6-4920-94d7-b80ba7080f0a)
-
-![image](https://github.com/Fatma52125/AVDC_GDP_TeamC/assets/133139057/01c30e49-bef8-4060-815d-957917749c09)
-
-# Program Overview (C++)
-![image](https://github.com/Fatma52125/AVDC_GDP_TeamC/assets/133139057/d6be9479-409b-40ca-87b2-5492fda1666c)
-
 
 # Introduction
 The Group Design Project is a hands-on project for students of AVDC to gain invaluable experience about the autonomous systems and the project design phase cycle for a project. The GDP is completed by 8 students between the dates of 15th November 2022 – 24th March 2023 which is approximately 4 months of time period.
